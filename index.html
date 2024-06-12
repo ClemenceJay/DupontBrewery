@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <title>Dupont Brewery</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="desktop">
+        <ul>
+          <li><a href="#beer">Les bières</a></li>
+          <li><a href="#team">L'équipe</a></li>
+        </ul>
+        <img id="large" src="./ressources/logo-large.png" alt=""></li>
+        <ul>  
+          <li><a href="#lieu">Brasserie & Bar</a></li>
+          <li><a href="#come">Nous trouver</a></li>
+        </ul>
+      </nav>
+      <nav class="mobile">
+        <ul>
+          <li><img id="small" src="./ressources/logo-small.png"></li>
+          <li><a href="#beer"> <p>Bières</p> <img src="./ressources/beer.png"></a></li>
+          <li><a href="#team"><p>Equipe</p> <img src="./ressources/team.png"></a></li>
+          <li><a href="#lieu"> <p>Lieux</p> <img src="./ressources/pin.png"></a></li>
+          <li id="adresse"><a href="#come"><p>Adresses</p></a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <main>
+      <div class="intro">
+        <div class="content">
+          <h3>Brasserie familiale depuis 2024</h3>
+          <h3>Bières craft en tout genre et bar de dégustation</h3>
+        </div>
+      </div>
+
+      <div class="part product" id="beer">
+        <div class="pres">
+          <h2> Nos bières</h2>
+          <div class="infos">
+            <h4>Fabrication artisanale</h4>
+            <h4>Production 100% Locale</h4>
+            <h4>Ingrédients naturels</h4></div>
+        </div>
+        <div class="beers">
+          <div class="cards">
+            <p>La Blanche</p>
+            <img src="./ressources/blanche.png">
+          </div>
+          <div class="cards">
+            <p>La Blonde</p>
+            <img src="./ressources/blonde.png">
+          </div>
+          <div class="cards">
+            <p>L'Ambrée</p>
+            <img src="./ressources/ambree.png">
+          </div>
+          <div class="cards">
+            <p>La Triple</p>
+            <img src="./ressources/triple.png">
+          </div>
+          <div class="cards">
+            <p>L'IPA</p>
+            <img src="./ressources/ipa.png">
+          </div>
+          <div class="cards">
+            <p>La NEIPA</p>
+            <img src="./ressources/neipa.png">
+          </div>
+        </div>
+      </div>
+
+      <div class="part team" id="team">
+        <div class="pres crew">
+          <h2>Notre Equipe</h2>
+          <p>C'est grâce à eux que vous pouvez boire de si bonnes bières!</p>
+        </div>
+        <div class="equipe">
+          <div class="perso">
+            <img src="./ressources/man2.jpg">
+            <div class="name">
+            <H4>Matthis</H4>
+            <p>Fondateur et dirigeant</p>
+          </div>
+          </div>
+          <div class="perso">
+            <img id="sara" src="./ressources/sara.jpg">
+            <div class="name">
+            <H4>Séraphine</H4>
+            <p>Responsable de la brasserie</p>
+          </div>
+          </div>
+          <div class="perso">
+            <img src="./ressources/man1.jpg">
+            <div class="name">
+            <H4>Toinon</H4>
+            <p id="lieu">Gerant de votre bar préféré</p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="part etablissements">
+        <div class="pres">
+          <h2>Nos établissements</h2>
+        </div>
+        <div class="lieux">
+          <div class="brasserie">
+            <h3>Notre Brasserie</h3>
+            <p>Lieu de création et de brassage de nos bières</p>
+            <p>Nous proposons:</p>
+            <ul>
+              <li>Visite guidée de la brasserie</li>
+              <li>Degustation et conseils</li>
+              <li>Vente directe</li>
+            </ul>
+            <img src="./ressources/cuve2bis.png" alt="">
+            <div class="venir" id="come">
+              <h3> Venir à la brasserie</h3>
+              <p>Horaire d'ouverture:<br>Lundi au vendredi: 13h30 - 19h<br>Samedi: 9h30 - 12h30</p>
+              <address>Adresse:<br>
+                137 Le Verdier <br>
+                18100 Méry-sur-Cher
+              </address>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2707.6743608881384!2d1.9784100749340994!3d47.262070611707536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fb27f65f71d501%3A0x5b5ed8e302a54b52!2s137%20Le%20Verdier%2C%2018100%20M%C3%A9ry-sur-Cher!5e0!3m2!1sfr!2sfr!4v1712958037418!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="bar">
+          <h3>Notre Bar</h3>
+          <p>Un lieu convivial pour découvrir nos bières</p>
+          <p>Nous proposons:</p>
+          <ul>
+            <li>Bières pression locales</li>
+            <li>Planches apéritives</li>
+            <li>Cocktails et boissons diverses</li>
+          </ul>
+          <img src="./ressources/bar.jpg" alt="">
+          <div class="venir">
+            <h3> Venir dans notre bar</h3>
+            <p>Horaire d'ouverture:<br>mardi au vendredi: 17h30 - 00h30<br>Week-end: 18h - 02h</p>
+            <address>Adresse:<br>
+              38 rue Maréchal Joffre<br>
+              18100 Vierzon
+            </address>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2709.6662651148085!2d2.0680555765679167!3d47.22311203786321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fadbd997436537%3A0xa9fff6b68589c371!2s38%20Rue%20du%20Mar%C3%A9chal%20Joffre%2C%2018100%20Vierzon!5e0!3m2!1sfr!2sfr!4v1712957948410!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+      </div>
+    </main>
+    
+  </body>
+</html>
